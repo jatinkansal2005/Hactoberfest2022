@@ -7,9 +7,9 @@ using namespace std;
 int main()
 {
 	ll nodes , edges ;
-	cout <<"Enter Number of nodes in graph: ";
+	cout <<"Enter number of nodes in a graph: ";
 	cin >> nodes;
-	cout << "Enter Number of edges in graph: ";
+	cout << "Enter number of edges in a graph: ";
 	cin >> edges;
 
 	vector< vector<ll> > v(nodes+1);    // nodes+1 is taken as indexing starts from 0
