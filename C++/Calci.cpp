@@ -4,21 +4,21 @@ using namespace std;
 // Main program 
 main() 
 { 
-    char op; 
+    char op1; 
     float num1, num2; 
 
   
     // It allows user to enter operator i.e. +, -, *, / ,%
-//     cin >> op; 
+//     cin >> op1; 
   
     // It allow user to enter the operands   
-  cout<<"use the operators +,-,/,+ and %"<<endl;
+  cout<<"Use the operators +, -, /, + and %"<<endl;
   cout<<"Please write any expression to calculate the value"<<endl;
 
-    cin >> num1 >>op>> num2; 
+    cin >> num1 >>op1>> num2; 
   
     // Switch statement begins 
-    switch (op) { 
+    switch (op1) { 
           
         // If user enter +  
         case '+': 
